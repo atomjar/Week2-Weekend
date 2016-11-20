@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+</head>
+<body>
+
+  <div class="wrap">
+  	<div class="cube">
+  		<div class="front">╔ </div>
+  		<div class="back"> ╡</div>
+  		<div class="left">╬</div>
+  		<div class="right">╪</div>
+  	</div>
+  </div>
+
+<div class="form">
+  <form action="#" method="get" onsubmit="reurn unesi()">
+
+    <div class="container">
+        <output id="display2"></output>
+        <output id="display"></output>
+    </div>
+
+    <section class="buttons">
+      <div class="operators2">
+          <button id="bigger" OnClick="clearing ()">AC</button>
+          <button OnClick="plusmin ()">+/-</button>
+          <button id="operators" OnClick="division ()">÷</button>
+      </div>
+
+       <ul class="digits">
+          <li><button>9</button></li>
+          <li><button>8</button></li>
+          <li><button>7</button></li>
+          <li><button>6</button></li>
+          <li><button>5</button></li>
+          <li><button>4</button></li>
+          <li><button>3</button></li>
+          <li><button>2</button></li>
+          <li><button>1</button></li>
+          <li><button id="bigger">0</button></li>
+          <li><button>.</button></li>
+       </ul>
+
+       <div class="operators">
+          <button id="operators" OnClick="multiplication ()">x</button>
+          <button id="operators" OnClick="subtraction ()">-</button>
+          <button id="operators" OnClick="addition ()">+</button>
+          <button id="operators" OnClick="equal ()">=</button>
+      </div>
+    </section>
+  </form>
+</div>
+
+<footer>
+    <h1>Hidden Knowledge Awaits You</h1>
+</footer>
+
+<audio src="Aeris.mp3" type="audio/mpeg" autoplay />
+
+  <script src="main.js"></script>
+</body>
+</html>
